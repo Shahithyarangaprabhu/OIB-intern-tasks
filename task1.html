@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header Styles */
+        .main-header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li a:hover {
+            color: #ff6347;
+        }
+
+        /* Hero Section Styles */
+        .hero-section {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ff4500;
+        }
+
+        /* Services Section Styles */
+        .services-section {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services-section h2 {
+            margin-bottom: 40px;
+            font-size: 36px;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .service-box {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            width: 250px;
+        }
+
+        .service-box h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styles */
+        .main-footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Welcome to My Website</h1>
+        <p>Your one-stop solution for web development services.</p>
+        <a href="#services" class="btn">Learn More</a>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <h3>Web Development</h3>
+                <p>We build responsive and high-performing websites.</p>
+            </div>
+            <div class="service-box">
+                <h3>SEO Optimization</h3>
+                <p>Improve your site's ranking on search engines.</p>
+            </div>
+            <div class="service-box">
+                <h3>Graphic Design</h3>
+                <p>Creativity at its best with our design solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
